@@ -104,7 +104,7 @@ We hebben zojuist een app gereleased zonder dat we deze 'getest' hebben. Gelukki
 - Klik vervolgens op **Edit** om jouw build pipeline aan te passen
 ![edit_pipeline](/.attachments/edit_pipeline.jpg)
 - Voeg onder de Agent job een nieuwe **.NET Core** task toe om de Unit tests van het project te runnen (tussen de build en de publish)
-	- Bij **Path to project(s)** vul `**/*UnitTests/*.csproj` in. Dit is de folder waarin de unit tests staan
+	- Bij **Path to project(s)** vul `**/*Tests/*.csproj` in. Dit is de folder waarin de unit tests staan
 - Sleep de task naar de juiste plek
 ![add_unit_test](/.attachments/add_unit_test.jpg)
 
